@@ -1,0 +1,15 @@
+2020-03-25 13:40:29,049 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc']
+2020-03-25 13:40:29,054 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc', u'clusters']
+2020-03-25 13:40:29,312 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc', u'clusters', u'create']
+2020-03-25 13:40:29,368 DEBUG    root            Running [gcloud.dataproc.clusters.create] with arguments: [--bucket: "student-00-d476f70f70be-image-6706", --master-machine-type: "n1-standard-2", --worker-machine-type: "n1-standard-2", CLUSTER: "student-00-d476f70f70be-qwiklab"]
+2020-03-25 13:40:35,605 INFO     ___FILE_ONLY___ Waiting on operation [projects/qwiklabs-gcp-00-a2312bdac669/regions/global/operations/917e6e53-cfaf-3fc4-8692-fd71d87307d4].
+
+2020-03-25 13:40:35,606 INFO     ___FILE_ONLY___ Waiting for cluster creation operation...
+2020-03-25 13:40:35,676 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:40:35,677 WARNING  root            For PD-Standard without local SSDs, we strongly recommend provisioning 1TB or larger to ensure consistently high I/O performance. See https://cloud.google.com/compute/docs/disks/performance for information on disk I/O performance.
+2020-03-25 13:42:57,120 INFO     root            Operation [projects/qwiklabs-gcp-00-a2312bdac669/regions/global/operations/917e6e53-cfaf-3fc4-8692-fd71d87307d4] finished after 141.514 seconds
+2020-03-25 13:42:57,182 INFO     ___FILE_ONLY___ Created [https://dataproc.googleapis.com/v1/projects/qwiklabs-gcp-00-a2312bdac669/regions/global/clusters/student-00-d476f70f70be-qwiklab] Cluster placed in zone [us-central1-a].
+
+2020-03-25 13:42:57,183 INFO     root            Display format: "none"
+2020-03-25 13:42:57,189 DEBUG    root            SDK update checks are disabled.

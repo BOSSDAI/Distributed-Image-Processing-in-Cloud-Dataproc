@@ -1,0 +1,249 @@
+2020-03-25 13:44:03,853 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc']
+2020-03-25 13:44:03,855 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc', u'jobs']
+2020-03-25 13:44:03,925 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc', u'jobs', u'submit']
+2020-03-25 13:44:03,937 DEBUG    root            Loaded Command Group: [u'gcloud', u'dataproc', u'jobs', u'submit', u'spark']
+2020-03-25 13:44:03,941 DEBUG    root            Running [gcloud.dataproc.jobs.submit.spark] with arguments: [--cluster: "student-00-d476f70f70be-qwiklab", --jar: "target/scala-2.10/feature_detector-assembly-1.0.jar"]
+2020-03-25 13:44:04,090 INFO     root            Staging local files [u'target/scala-2.10/feature_detector-assembly-1.0.jar'] to gs://student-00-d476f70f70be-image-6706/google-cloud-dataproc-metainfo/31f35abc-8a6a-48d2-a086-500899b37747/jobs/cc2ff93dd84e420491fce952c76cb0f8/staging/.
+2020-03-25 13:44:04,128 INFO     root            Uploading [target/scala-2.10/feature_detector-assembly-1.0.jar] to [student-00-d476f70f70be-image-6706/google-cloud-dataproc-metainfo/31f35abc-8a6a-48d2-a086-500899b37747/jobs/cc2ff93dd84e420491fce952c76cb0f8/staging/feature_detector-assembly-1.0.jar]
+2020-03-25 13:44:04,800 INFO     ___FILE_ONLY___ Job [cc2ff93dd84e420491fce952c76cb0f8] submitted.
+
+2020-03-25 13:44:04,800 INFO     ___FILE_ONLY___ Waiting for job output...
+
+2020-03-25 13:44:13,591 INFO     ___FILE_ONLY___ 20/03/25 13:44:11 INFO org.spark_project.jetty.util.log: Logging initialized @3724ms
+20/03/25 13:44:11 INFO org.spark_project.jetty.server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+20/03/25 13:44:11 INFO org.spark_project.jetty.server.Server: Started @3847ms
+20/03/25 13:44:11 INFO org.spark_project.jetty.server.AbstractConnector: Started ServerConnector@a867938{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+20/03/25 13:44:12 WARN org.apache.spark.scheduler.FairSchedulableBuilder: Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.
+
+2020-03-25 13:44:15,809 INFO     ___FILE_ONLY___ 20/03/25 13:44:14 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at student-00-d476f70f70be-qwiklab-m/10.128.0.3:8032
+20/03/25 13:44:14 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at student-00-d476f70f70be-qwiklab-m/10.128.0.3:10200
+
+2020-03-25 13:44:20,276 INFO     ___FILE_ONLY___ 20/03/25 13:44:19 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1585143692383_0001
+
+2020-03-25 13:44:32,221 INFO     ___FILE_ONLY___ Number of files found: 3
+
+2020-03-25 13:44:43,253 INFO     ___FILE_ONLY___ 
+
+
+The output files can be found at gs://student-00-d476f70f70be-image-6706/out/
+Total time: 11985 milliseconds.
+
+
+
+20/03/25 13:44:41 INFO org.spark_project.jetty.server.AbstractConnector: Stopped Spark@a867938{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+
+2020-03-25 13:44:46,420 INFO     ___FILE_ONLY___ Job [cc2ff93dd84e420491fce952c76cb0f8] finished successfully.
+
+2020-03-25 13:44:46,422 INFO     root            Display format: "default"
+2020-03-25 13:44:46,425 INFO     ___FILE_ONLY___ done
+2020-03-25 13:44:46,425 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,425 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___ true
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___ driverControlFilesUri
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,426 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/google-cloud-dataproc-metainfo/31f35abc-8a6a-48d2-a086-500899b37747/jobs/cc2ff93dd84e420491fce952c76cb0f8/
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___ driverOutputResourceUri
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/google-cloud-dataproc-metainfo/31f35abc-8a6a-48d2-a086-500899b37747/jobs/cc2ff93dd84e420491fce952c76cb0f8/driveroutput
+2020-03-25 13:44:46,427 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ jobUuid
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ b33472c4-cf71-3147-8962-1932890195d6
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ placement
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,428 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___ clusterName
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___ student-00-d476f70f70be-qwiklab
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,429 INFO     ___FILE_ONLY___ clusterUuid
+2020-03-25 13:44:46,432 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,432 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,432 INFO     ___FILE_ONLY___ 31f35abc-8a6a-48d2-a086-500899b37747
+2020-03-25 13:44:46,432 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___ reference
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___ jobId
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,433 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ cc2ff93dd84e420491fce952c76cb0f8
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ projectId
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ qwiklabs-gcp-00-a2312bdac669
+2020-03-25 13:44:46,434 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ sparkJob
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ args
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,435 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/haarcascade_frontalface_default.xml
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/imgs/
+2020-03-25 13:44:46,436 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/out/
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___ mainJarFileUri
+2020-03-25 13:44:46,437 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___ gs://student-00-d476f70f70be-image-6706/google-cloud-dataproc-metainfo/31f35abc-8a6a-48d2-a086-500899b37747/jobs/cc2ff93dd84e420491fce952c76cb0f8/staging/feature_detector-assembly-1.0.jar
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___ status
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,438 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ state
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ DONE
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ stateStartTime
+2020-03-25 13:44:46,439 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___  '
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ 2020-03-25T13:44:45.361Z
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ '
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ statusHistory
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,440 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ state
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ PENDING
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,441 INFO     ___FILE_ONLY___ stateStartTime
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___  '
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ 2020-03-25T13:44:04.755Z
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ '
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,442 INFO     ___FILE_ONLY___ state
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ SETUP_DONE
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ stateStartTime
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___  '
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ 2020-03-25T13:44:04.838Z
+2020-03-25 13:44:46,443 INFO     ___FILE_ONLY___ '
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ details
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ Agent
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,444 INFO     ___FILE_ONLY___ reported
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ job
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ success
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ state
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,445 INFO     ___FILE_ONLY___ RUNNING
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ stateStartTime
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___  '
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ 2020-03-25T13:44:05.343Z
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ '
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,446 INFO     ___FILE_ONLY___ yarnApplications
+2020-03-25 13:44:46,447 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,447 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,447 INFO     ___FILE_ONLY___ -
+2020-03-25 13:44:46,447 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,447 INFO     ___FILE_ONLY___ name
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ com.google.spark.feature_detector.FeatureDetector
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ progress
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,448 INFO     ___FILE_ONLY___ 1.0
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ state
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ FINISHED
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___   
+2020-03-25 13:44:46,449 INFO     ___FILE_ONLY___ trackingUrl
+2020-03-25 13:44:46,450 INFO     ___FILE_ONLY___ :
+2020-03-25 13:44:46,450 INFO     ___FILE_ONLY___  
+2020-03-25 13:44:46,450 INFO     ___FILE_ONLY___ http://student-00-d476f70f70be-qwiklab-m:8088/proxy/application_1585143692383_0001/
+2020-03-25 13:44:46,450 INFO     ___FILE_ONLY___ 
+
+2020-03-25 13:44:46,451 DEBUG    root            SDK update checks are disabled.
